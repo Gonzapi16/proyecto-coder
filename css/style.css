@@ -59,9 +59,9 @@ h3 {
     padding: 1rem;
 }
 
-body { 
+.color-fondo { 
+    background: rgb(36,36,36);
     font-family: 'PT Sans', sans-serif;
-    background-color: rgb(36, 36, 36);
     font-size: 20px;
 }
 
