@@ -41,6 +41,11 @@ li:hover {
     background: rgb(36,36,36);
 }
 
+.navbar {
+    background: rgb(36,36,36);
+    background: linear-gradient(90deg, rgba(36,36,36,1) 5%, rgba(1,51,100,1) 50%);
+}
+
 h1 {
     color: white;
     gap: 1rem;
