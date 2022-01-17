@@ -38,7 +38,7 @@ header nav li {
 }
 
 li:hover {
-    background: rgb(75, 17, 17);
+    background: rgb(36, 36, 36);
 }
 
 .navbar {
@@ -75,6 +75,45 @@ a {
     color: white;
 }
 
+.navbar-home {
+    font-family: 'Josefin Sans', sans-serif;    
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-productos {
+    font-family: 'Josefin Sans', sans-serif;    
+    color: white;
+    text-decoration: none;
+} 
+
+.navbar-nosotros {
+    font-family: 'Josefin Sans', sans-serif;    
+    color: white;
+    text-decoration: none;
+} 
+
+.navbar-contacto {
+    font-family: 'Josefin Sans', sans-serif;    
+    color: white;
+    text-decoration: none;
+} 
+
+.navbar-perfil-dropdown {
+    font-family: 'Josefin Sans', sans-serif;    
+    color: white;
+    text-decoration: none;
+} 
+
+.form-navbar {
+    width: 15rem;
+    border-radius: 8px;
+} 
+
+ul {
+    align-items: center;
+} 
+
 article {
     color: white;
     gap: 1rem;
@@ -97,6 +136,12 @@ p {
     padding: 1rem;
 }
 
+.boton-verde {
+    color: white;
+    background: rgb(36,36,36);
+    border-radius: 5px;
+}
+
 .grid-footer {
     display: flex;
     justify-content: space-evenly;
@@ -112,7 +157,7 @@ footer {
     background: rgb(36,36,36);
     background: linear-gradient(90deg, rgba(36,36,36,1) 0%, rgba(1,51,100,1) 15%, rgba(1,51,100,1) 85%, rgba(36,36,36,1) 100%);
     gap: 1rem;
-    padding: 1rem;
+    padding: 5rem;
     height: 100%;
 }
 
