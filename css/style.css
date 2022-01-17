@@ -39,6 +39,7 @@ header nav li {
 
 li:hover {
     background: rgb(36, 36, 36);
+    border-radius: 10px;
 }
 
 .navbar {
@@ -67,7 +68,6 @@ h3 {
 .color-fondo { 
     background: rgb(36,36,36);
     font-family: 'PT Sans', sans-serif;
-    font-size: 20px;
 }
 
 a {
