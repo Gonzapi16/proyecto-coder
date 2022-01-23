@@ -1,0 +1,20 @@
+.header ul {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header nav {
+  background: #242424;
+  background: -webkit-gradient(linear, left top, right top, color-stop(5%, #242424), color-stop(50%, #013364));
+  background: linear-gradient(90deg, #242424 5%, #013364 50%);
+  display: inline-block;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.header li:hover {
+  background: #242424;
+  border-radius: 500px;
+}
+/*# sourceMappingURL=estilos.css.map */
