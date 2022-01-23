@@ -1,3 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box 0;
+          box-sizing: border-box 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.grid-contenedor {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 4rem;
+      grid-template-rows: 4rem;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+}
+
+.grid-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+}
+
 .header ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -5,9 +32,6 @@
 }
 
 .header nav {
-  background: #242424;
-  background: -webkit-gradient(linear, left top, right top, color-stop(5%, #242424), color-stop(50%, #013364));
-  background: linear-gradient(90deg, #242424 5%, #013364 50%);
   display: inline-block;
   gap: 1rem;
   padding: 1rem;
@@ -15,6 +39,6 @@
 
 .header li:hover {
   background: #242424;
-  border-radius: 500px;
+  border-radius: 10px;
 }
 /*# sourceMappingURL=estilos.css.map */

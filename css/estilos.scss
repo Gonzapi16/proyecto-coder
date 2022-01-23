@@ -1,19 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box 0;
+    text: {
+        decoration: none;
+    }
+    list-style-type:none;
+}
+
+.grid-contenedor {
+    display: grid;
+    grid-template-rows: 4rem;
+    grid-template-columns: auto;
+}
+
+.grid-header {
+    display: flex;
+    height: 100%;
+}
+
 .header {
     ul  {
         align-items: center;
     }
     nav {
-        background: rgb(36,36,36);
-        background: linear-gradient(90deg, rgba(36,36,36,1) 5%, rgba(1,51,100,1) 50%);
         display: inline-block;
         gap: 1rem;
         padding: 1rem;
     }
     li {
         &:hover {
-            background: rgb(36, 36, 36);
+            background-color: $color-fondo;
             border-radius: 10px;
             }
     }
+    a {
+        font:
+            {
+            family: 'Josefin Sans', sans-serif;
+        }
+        color: white;
+    }
     
+}
+
+.navbar-home {
+    background: $color-degrade;
+    display: inline-block;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.boton-busqueda {
+    color: white;
+    background: $color-fondo;
+    border-radius: 5px;
+}
+
+.color-fondo {
+    background: $color-fondo;
+    h1: {
+        color: white;
+    }
+    h2: {
+        color: white;
+    }
+    h3: {
+        color: white;
+    }
+}
+
+p {
+    font: {
+        family: 'PT Sans', sans-serif;
+        color: white;
+        size: 14px;
+        line-height: 25px;
+    }
+    padding: 1rem;
+}
+
+img {
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 35px;
+    margin-top: 2rem; 
+}
+
+.grid-footer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 100%;   
+}
+
+.footer {
+    font-family: 'Josefin Sans', sans-serif;    
+    color: white;
+    background: $color-degrade-footer;
+    gap: 1rem;
+    padding: 5rem;
+    height: 100%;
 }
