@@ -23,7 +23,6 @@
 header {
     font-family: 'Josefin Sans', sans-serif;    
     color: white;
-    background: rgb(36,36,36);
     background: linear-gradient(90deg, rgba(36,36,36,1) 5%, rgba(1,51,100,1) 50%);
     position: fixed;
     width: 100%;
