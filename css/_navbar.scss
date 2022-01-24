@@ -1,0 +1,108 @@
+/*Navbar*/
+
+.grid-header {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding-left: 2rem;
+}
+
+header {
+    font-family: $fuentes-grandes;    
+    color: white;
+    background: $degrade-nav;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+    ul  {
+        align-items: center;
+        display: inline-block;
+        gap: 1rem;
+        padding: 1rem;
+    }
+    nav {
+        background: $degrade-nav;
+        display: inline-block;
+        gap: 1rem;
+        padding: 1rem;
+    }
+    li {
+        &:hover {
+            background: $color-fondo;
+            border-radius: 10px;
+            }
+    }
+    a {
+        font: {
+            family: $fuentes-grandes;
+            size: 18px;
+        }
+        color: white;
+    }
+
+    logo-nav {
+        align-items: center;
+    }
+    
+}
+
+.navbar {
+    background: $degrade-nav;
+    display: inline-block;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.navbar-home {
+    display: inline-block;
+    gap: 1rem;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.navbar-productos {
+    font-family: $fuentes-grandes;    
+    color: white;
+    text-decoration: none;
+} 
+
+.navbar-nosotros {
+    font-family: $fuentes-grandes;    
+    color: white;
+    text-decoration: none;
+} 
+
+.navbar-contacto {
+    font-family: $fuentes-grandes;    
+    color: white;
+    text-decoration: none;
+} 
+
+.navbar-perfil-dropdown {
+    font-family: $fuentes-grandes;    
+    color: white;
+    text-decoration: none;
+} 
+
+.form-navbar {
+    width: 15rem;
+    border-radius: 8px;
+    padding: 0.5rem;
+} 
+
+.boton-busqueda {
+    color: white;
+    background: $color-fondo;  
+    border-radius: 5px;
+    margin: 1rem;
+    padding: {
+            left: 1rem;
+            right: 1rem;
+            top: 0.5rem;
+            bottom: 0.5rem;
+    }
+}
+
+/*Fin navbar*/ 

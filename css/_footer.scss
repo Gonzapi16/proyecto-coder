@@ -1,0 +1,21 @@
+/*Footer*/
+
+.grid-footer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 100%;   
+}
+
+footer {
+    font-family: $fuentes-grandes;    
+    color: white;
+    background: $degrade-footer;
+    gap: 1rem;
+    padding: 5rem;
+    height: 100%;
+}
+
+/*Fin footer*/ 

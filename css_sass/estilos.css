@@ -1,21 +1,37 @@
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box 0;
-          box-sizing: border-box 0;
-  text-decoration: none;
-  list-style-type: none;
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+/*Variables*/
+/*Footer*/
+.grid-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
 }
 
-.grid-contenedor {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-rows: 4rem;
-      grid-template-rows: 4rem;
-  -ms-grid-columns: auto;
-      grid-template-columns: auto;
+footer {
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+  background: -webkit-gradient(linear, left top, right top, from(#242424), color-stop(15%, #013364), color-stop(85%, #013364), to(#242424));
+  background: linear-gradient(90deg, #242424 0%, #013364 15%, #013364 85%, #242424 100%);
+  gap: 1rem;
+  padding: 5rem;
+  height: 100%;
 }
 
+/*Fin footer*/
+/*Navbar*/
 .grid-header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -28,7 +44,7 @@
 }
 
 header {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   color: white;
   background: -webkit-gradient(linear, left top, right top, color-stop(5%, #242424), color-stop(50%, #013364));
   background: linear-gradient(90deg, #242424 5%, #013364 50%);
@@ -65,7 +81,7 @@ header li:hover {
 }
 
 header a {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 18px;
   color: white;
 }
@@ -92,25 +108,25 @@ header logo-nav {
 }
 
 .navbar-productos {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   color: white;
   text-decoration: none;
 }
 
 .navbar-nosotros {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   color: white;
   text-decoration: none;
 }
 
 .navbar-contacto {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   color: white;
   text-decoration: none;
 }
 
 .navbar-perfil-dropdown {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   color: white;
   text-decoration: none;
 }
@@ -132,6 +148,26 @@ header logo-nav {
   padding-bottom: 0.5rem;
 }
 
+/*Fin navbar*/
+/*Contenidos*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box 0;
+          box-sizing: border-box 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.grid-contenedor {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 4rem;
+      grid-template-rows: 4rem;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+}
+
 .color-fondo {
   background: #242424;
 }
@@ -149,7 +185,7 @@ h3 {
 }
 
 p {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 16px;
   padding: 1rem;
   color: white;
@@ -163,31 +199,5 @@ img {
   margin-top: 2rem;
 }
 
-.grid-footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 100%;
-  height: 100%;
-}
-
-footer {
-  font-family: 'Josefin Sans', sans-serif;
-  color: white;
-  background: -webkit-gradient(linear, left top, right top, from(#242424), color-stop(15%, #013364), color-stop(85%, #013364), to(#242424));
-  background: linear-gradient(90deg, #242424 0%, #013364 15%, #013364 85%, #242424 100%);
-  gap: 1rem;
-  padding: 5rem;
-  height: 100%;
-}
+/*Fin contenidos*/
 /*# sourceMappingURL=estilos.css.map */
