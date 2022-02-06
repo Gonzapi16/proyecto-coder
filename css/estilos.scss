@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 @import "variables";
+@import "maps";
 @import "footer";
 @import "navbar";
 
@@ -22,14 +23,6 @@
     grid-template-columns: auto;
 }
 
-.color-fondo {
-    background: $color-fondo;
-}
-
-h1 {
-    color: white;
-}
-
 h2 {
     color: white;
 }
@@ -41,11 +34,11 @@ h3 {
 p {
     font: {
         family: $fuentes-texto;
-        size: 16px;
+        size: 18px;
     }
     padding: 1rem;
     color: white;
-    line-height: 25px;
+    line-height: 30px;
 }
 
 img {

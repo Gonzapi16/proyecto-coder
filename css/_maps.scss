@@ -1,0 +1,24 @@
+/*MAP-GET*/
+
+$fondo-pagina: (
+    fondo-gris: $color-fondo,
+);
+
+.color-fondo {
+    background-color: map-get($fondo-pagina, fondo-gris);
+}
+
+$titulares: (
+    color-titulares: white,
+    alineado-titulares: center,
+    padding-titulares: 5rem,
+);
+
+h1 {
+    color: map-get($titulares, color-titulares);
+    text-align: map-get($titulares, alineado-titulares);
+    padding-top: map-get($titulares, padding-titulares);
+}
+
+/*EXTEND*/
+
