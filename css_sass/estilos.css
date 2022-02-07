@@ -25,6 +25,11 @@ h1 {
   font-size: 16px;
 }
 
+/*MIXIN*/
+.texto2-index {
+  text-align: center;
+}
+
 /*Footer*/
 .grid-footer {
   display: -webkit-box;
