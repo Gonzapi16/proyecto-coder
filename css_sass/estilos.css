@@ -13,6 +13,18 @@ h1 {
 }
 
 /*EXTEND*/
+.texto1-index, .texto2-index {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  padding: 2rem;
+  color: white;
+  line-height: 30px;
+}
+
+.texto2-index {
+  font-size: 16px;
+}
+
 /*Footer*/
 .grid-footer {
   display: -webkit-box;
@@ -191,18 +203,10 @@ h3 {
   color: white;
 }
 
-p {
-  font-family: "PT Sans", sans-serif;
-  font-size: 18px;
-  padding: 1rem;
-  color: white;
-  line-height: 30px;
-}
-
 img {
   gap: 1rem;
-  padding: 1rem;
-  border-radius: 35px;
+  padding: 2rem;
+  border-radius: 45px;
   margin-top: 2rem;
 }
 

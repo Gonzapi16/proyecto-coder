@@ -22,3 +22,22 @@ h1 {
 
 /*EXTEND*/
 
+.texto1-index {
+    font: {
+        family: $fuentes-texto;
+        size: 18px;
+    }
+    padding: 2rem;
+    color: white;
+    line-height: 30px;
+}
+
+.texto2-index {
+    @extend .texto1-index;
+    font: {
+        size: 16px;
+    }
+}
+
+
+
