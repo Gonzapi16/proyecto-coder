@@ -20,6 +20,12 @@ h1 {
     padding-top: map-get($titulares, padding-titulares);
 }
 
+h2 {
+    color: map-get($titulares, color-titulares);
+    text-align: map-get($titulares, alineado-titulares);
+    padding-top: 10rem;
+}
+
 /*EXTEND*/
 
 .texto1-index {
@@ -37,6 +43,11 @@ h1 {
     font: {
         size: 16px;
     }
+}
+
+.texto1-nosotros {
+    @extend .texto1-index;
+    padding-top: 10rem;
 }
 
 .card-teclado {

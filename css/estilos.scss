@@ -4,6 +4,7 @@
 @import "maps";
 @import "footer";
 @import "navbar";
+@import "formulario";
 
 /*Contenidos*/ 
 
@@ -23,12 +24,12 @@
     grid-template-columns: auto;
 }
 
-h2 {
+h3 {
     color: white;
 }
 
-h3 {
-    color: white;
+.grid-productos {
+    padding-top: 10rem;
 }
 
 img {

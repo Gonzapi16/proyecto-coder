@@ -12,8 +12,14 @@ h1 {
   padding-top: 5rem;
 }
 
+h2 {
+  color: white;
+  text-align: center;
+  padding-top: 10rem;
+}
+
 /*EXTEND*/
-.texto1-index, .texto2-index {
+.texto1-index, .texto2-index, .texto1-nosotros {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   padding: 2rem;
@@ -23,6 +29,10 @@ h1 {
 
 .texto2-index {
   font-size: 16px;
+}
+
+.texto1-nosotros {
+  padding-top: 10rem;
 }
 
 .card-teclado, .card-ukelele, .card-trompeta {
@@ -188,6 +198,13 @@ header logo-nav {
 }
 
 /*Fin navbar*/
+/*Formulario*/
+.formulario-contacto {
+  padding: 3rem;
+  color: white;
+}
+
+/*Fin formulario*/
 /*Contenidos*/
 * {
   margin: 0;
@@ -207,12 +224,12 @@ header logo-nav {
       grid-template-columns: auto;
 }
 
-h2 {
+h3 {
   color: white;
 }
 
-h3 {
-  color: white;
+.grid-productos {
+  padding-top: 10rem;
 }
 
 img {
