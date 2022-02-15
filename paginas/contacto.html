@@ -62,24 +62,70 @@
     </section>
 
     <!--Formulario-->
+    
     <div class="formulario-contacto">
     <article> 
     <form action="-">
-        Nombre: <input type="text"> <br>
-        <br>
-        Email: <label for="email">
-                <input type="email"> <br>
-                </label>
-        <br>
-        Dejanos tu comentario: <br> <label for="comentario"> <br>
-            <textarea placeholder="descripcion"></textarea>
-        </label>        
+      <div class="container">
+        <div class="row">
+          <div class="col 1">
+            <div class="nombre-formulario">
+              <section>
+              Nombre: 
+              </section>
+              <input class="input1-formulario">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col 1">
+            <div class="email-formulario">
+              <section>
+              Email:
+              </section> 
+              <label for="email">
+                <input class="input2-formulario">
+              </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col 1">
+              <div class="comentario-formulario">
+              <section>
+               Dejanos tu comentario: 
+              </section>
+            <label for="comentario">
+                <textarea placeholder="¿Qué necesitas saber?" id="textarea-formulario"></textarea>
+            </label>    
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col 1">    
+              <div class="pregunta-formulario">
         <p>¿Te gustaría estar al tanto de nuestros productos?</p> 
         Si <input type="radio" name="decision" value="si">
-        No <input type="radio" name="decision" value="no"> <br>
-        <br> 
-        <input type="submit" value="Enviar">
-        <input type="reset" value="Limpiar"> 
+        No <input type="radio" name="decision" value="no">
+              </div>
+            </div>
+          </div>
+        </div> 
+        <div class="container">
+          <div class="row">
+            <div class="col 1">    
+              <div class="boton-formulario">
+                  <a href="#" class="btn btn-primary">Enviar</a>
+              </div>
+            </div>
+          </div>
+        </div>
     </form>
     </article>
   </div>
