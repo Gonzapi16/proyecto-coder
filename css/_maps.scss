@@ -26,6 +26,8 @@ h2 {
     padding-top: 10rem;
 }
 
+
+
 /*EXTEND*/
 
 .texto1-index {
@@ -46,6 +48,11 @@ h2 {
 }
 
 .texto1-nosotros {
+    @extend .texto1-index;
+    padding-top: 10rem;
+}
+
+.texto1-perfil {
     @extend .texto1-index;
     padding-top: 10rem;
 }

@@ -19,7 +19,7 @@ h2 {
 }
 
 /*EXTEND*/
-.texto1-index, .texto2-index, .texto1-nosotros {
+.texto1-index, .texto2-index, .texto1-nosotros, .texto1-perfil {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   padding: 2rem;
@@ -32,6 +32,10 @@ h2 {
 }
 
 .texto1-nosotros {
+  padding-top: 10rem;
+}
+
+.texto1-perfil {
   padding-top: 10rem;
 }
 
@@ -135,10 +139,12 @@ header a {
   color: white;
 }
 
-header logo-nav {
+.logo-nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-left: 3rem;
+  width: 7.5%;
 }
 
 .navbar {
@@ -272,11 +278,12 @@ h3 {
   padding-top: 10rem;
 }
 
-img {
+.banner-slides {
   gap: 1rem;
   padding: 2rem;
   border-radius: 45px;
-  margin-top: 2rem;
+  margin-top: 1rem;
+  width: 100%;
 }
 
 /*Fin contenidos*/
