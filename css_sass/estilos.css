@@ -45,13 +45,6 @@ h3 {
   padding-top: 10rem;
 }
 
-.card-teclado, .card-ukelele, .card-trompeta {
-  color: white;
-  background: #013364;
-  border-radius: 15px;
-  margin: 2rem;
-}
-
 /*MIXIN*/
 .texto2-index {
   text-align: center;
@@ -82,7 +75,7 @@ footer {
   background: -webkit-gradient(linear, left top, right top, from(#242424), color-stop(15%, #013364), color-stop(85%, #013364), to(#242424));
   background: linear-gradient(90deg, #242424 0%, #013364 15%, #013364 85%, #242424 100%);
   gap: 1rem;
-  padding: 5rem;
+  padding: 2rem;
   height: 100%;
 }
 
@@ -284,7 +277,6 @@ header a {
 .banner-slides {
   gap: 1rem;
   padding: 2rem;
-  border-radius: 45px;
   margin-top: 13rem;
   width: 100%;
   z-index: 1;
@@ -299,10 +291,93 @@ header a {
           transform-style: preserve-3d;
 }
 
-.container .box {
+.container .box-index {
   position: relative;
   width: 300px;
   height: 300px;
+  margin: 20px;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+  cursor: pointer;
+}
+
+.container .box-index .body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+}
+
+.container .box-index .body .imgContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.container .box-index .body .imgContainer img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container .box-index .body .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #161033;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.container .box-index:hover .body {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.container .box-index .body .content div {
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  padding: 20px;
+  background: -webkit-gradient(linear, left top, right top, from(#242424), color-stop(15%, #013364), color-stop(85%, #013364), to(#242424));
+  background: linear-gradient(90deg, #242424 0%, #013364 15%, #013364 85%, #242424 100%);
+  -webkit-transform: translateZ(100px);
+          transform: translateZ(100px);
+}
+
+.container .box-index .body .content div {
+  letter-spacing: 1px;
+}
+
+.container {
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.container .box {
+  position: relative;
+  width: 300px;
+  height: 600px;
   margin: 20px;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
@@ -349,7 +424,7 @@ header a {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #333;
+  background: #161033;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
@@ -401,10 +476,6 @@ header a {
       grid-template-rows: 4rem;
   -ms-grid-columns: auto;
       grid-template-columns: auto;
-}
-
-.grid-productos {
-  padding-top: 10rem;
 }
 
 /*Fin contenidos*/

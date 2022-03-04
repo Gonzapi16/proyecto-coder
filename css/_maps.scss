@@ -61,21 +61,6 @@ h3 {
     padding-top: 10rem;
 }
 
-.card-teclado {
-    color: white;
-    background: rgba(1,51,100,1);
-    border-radius: 15px;
-    margin: 2rem;
-}
-
-.card-ukelele {
-    @extend .card-teclado;
-}
-
-.card-trompeta {
-    @extend .card-teclado;
-}
-
 /*MIXIN*/
 
 @mixin parrafos {
@@ -85,4 +70,5 @@ h3 {
 .texto2-index {
     @include parrafos;
 }
+
 

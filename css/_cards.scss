@@ -2,10 +2,79 @@
     transform-style: preserve-3d
 }
 
-.container .box {
+.container .box-index {
     position: relative;
     width: 300px;
     height: 300px;
+    margin: 20px;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    cursor: pointer
+}
+
+.container .box-index .body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: 1s ease
+}
+
+.container .box-index .body .imgContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d
+}
+
+.container .box-index .body .imgContainer img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+
+.container .box-index .body .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(22, 16, 51);
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    transform: rotateY(180deg)
+}
+
+.container .box-index:hover .body {
+    transform: rotateY(180deg)
+}
+
+.container .box-index .body .content div {
+    transform-style: preserve-3d;
+    padding: 20px;
+    background: linear-gradient(90deg, rgba(36,36,36,1) 0%, rgba(1,51,100,1) 15%, rgba(1,51,100,1) 85%, rgba(36,36,36,1) 100%);
+    transform: translateZ(100px)
+}
+
+.container .box-index .body .content div {
+    letter-spacing: 1px;
+}
+
+.container {
+    transform-style: preserve-3d
+}
+
+.container .box {
+    position: relative;
+    width: 300px;
+    height: 600px;
     margin: 20px;
     transform-style: preserve-3d;
     perspective: 1000px;
@@ -46,7 +115,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: #333;
+    background: rgb(22, 16, 51);
     backface-visibility: hidden;
     transform-style: preserve-3d;
     transform: rotateY(180deg)
@@ -73,3 +142,6 @@
     padding: 0;
     letter-spacing: 1px;
 }
+
+
+

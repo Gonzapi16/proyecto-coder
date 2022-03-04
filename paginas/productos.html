@@ -14,105 +14,269 @@
 
         <!--Header-->
         <header>
-            <div class="grid-header">
-            <h3>LOGO</h3>
-            <div>
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                  <div class="container-fluid">
-                    <a class="navbar-home" href="../index.html">Home</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                          <a class="navbar-productos" href="#">Productos</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="navbar-nosotros" href="nosotros.html">Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="navbar-contacto" href="contacto.html" tabindex="-1">Contacto</a>
-                        </li>  
-                        <li class="nav-item dropdown">
-                            <a class="navbar-perfil-dropdown" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Perfil
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <li><a class="dropdown-item" href="perfil.html">Mi cuenta</a></li>
-                              <li><a class="dropdown-item" href="#">Carrito</a></li>
-                              <li><hr class="dropdown-divider"></li>
-                              <li><a class="dropdown-item" href="#">Historial de compras</a></li>
-                            </a>
-                        </ul>
-                          </li>
-                      <form class="d-flex">
-                        <input class="form-navbar" type="search" placeholder="¿Qué estas buscando?" aria-label="Search">
-                        </form>
-                        <button class=boton-busqueda type="submit">Buscar</button> 
-                    </div>
-                  </div>
-                </nav>
-              </div>
-            </div>    
-        </header>
+          <div class="grid-header">
+              <img src="/img/logo.png" class="logo-nav" alt="logo_music_x">
+          <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-home" href="../index.html">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="navbar-productos" href="#">Productos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="navbar-nosotros" href="/paginas/nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="navbar-contacto" href="/paginas/contacto.html" tabindex="-1">Contacto</a>
+                </li>  
+                <li class="nav-item dropdown">
+                  <a class="navbar-perfil-dropdown" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Perfil
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="/paginas/perfil.html">Mi cuenta</a></li>
+                    <li><a class="dropdown-item" href="#">Carrito</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Historial de compras</a></li>
+                  </a>
+                  </ul>
+                </li>
+              <form class="d-flex">
+                <input class="form-navbar" type="search" placeholder="¿Qué estas buscando?" aria-label="Search">
+              </form>
+              <form class="d-flex2">
+              <button class=boton-busqueda type="submit">Buscar</button> 
+            </form>
+            </div>
+          </div>
+        </nav>
+          </div>    
+          </div>
+      </header>
         <!--!Header-->
 
         <!--Productos-->
-        <div class="container">
-            <div class="row">
-              <div class="col 1">
-                <div class="grid-productos">
-                    <div class="card-teclado" style="width: 22rem;">
-                        <img src="../img/teclado.png" class="card-img-top" alt="teclado" width="25%"> 
-                        <div class="card-body">
-                          <h5 class="card-title">Teclado</h5>
-                          <h5 class="precio">800USD</h5>
-                          <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus facere perferendis officiis odit accusantium perspiciatis amet veniam quod quisquam eius? A culpa pariatur illum dicta blanditiis saepe quo, accusantium perspiciatis.</p>
-                          <a href="#" class="btn btn-primary">Ver artículo</a>
-                        </div>
-                    </div>           
-                </div>
-              </div>
-              <div class="col 2">
-                <div class="grid-productos">
-                <div class="card-ukelele" style="width: 22rem;">
-                    <img src="../img/ukelele.png" class="card-img-top" alt="ukelele" width="30%"> 
-                    <div class="card-body">
-                      <h5 class="card-title">Ukelele</h5>
-                      <h5 class="precio">350USD</h5>
-                      <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus facere perferendis officiis odit accusantium perspiciatis amet veniam quod quisquam eius? A culpa pariatur illum dicta blanditiis saepe quo, accusantium perspiciatis.</p>
-                      <a href="#" class="btn btn-primary">Ver artículo</a>
-                    </div>
+        <section>
+          <h3>Guitarras</h3>
+        </section>
+        
+        <div class="container d-flex align-items-center justify-content-center flex-wrap">
+          <div class="box">
+              <div class="body">
+                  <div class="imgContainer"> <img src="/img/guitarra_1.jpg" alt="guitarra_les_paul"> </div>
+                  <div class="content d-flex flex-column align-items-center justify-content-center">
+                      <div>
+                          <id class="text-white fs-5">Gibson Les Paul</id>
+                          <p class="fs-6 text-white">La guitarra Les Paul o guitarra Gibson Les Paul, es una guitarra Gibson de gama alta, que comenzó a fabricarse en la década de 1950. Su principal característica que las diferencia de otras Gibson es que su forma es inconfundible, con su mástil corto, sus dos pastillas y sus cuatro botones.</p>
+                      </div>
                   </div>
-                </div>
               </div>
-              <div class="col 3">
-                <div class="grid-productos">
-                <div class="card-trompeta" style="width: 22rem;">
-                    <img src="../img/trompeta.png" class="card-img-top" alt="ukelele" width="30%"> 
-                    <div class="card-body">
-                      <h5 class="card-title">Trompeta</h5>
-                      <h5 class="precio">600USD</h5>
-                      <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus facere perferendis officiis odit accusantium perspiciatis amet veniam quod quisquam eius? A culpa pariatur illum dicta blanditiis saepe quo, accusantium perspiciatis.</p>
-                      <a href="#" class="btn btn-primary">Ver artículo</a>
+          </div>
+          <div class="box">
+              <div class="body">
+                  <div class="imgContainer"> <img src="/img/guitarra_2.jpg" alt="guitarra_stratocaster"> </div>
+                  <div class="content d-flex flex-column align-items-center justify-content-center">
+                      <div>
+                          <id class="text-white fs-5">Fender Stratocaster</id>
+                          <p class="fs-6 text-white">La Fender Stratocaster, popularmente conocida como Strat o Strato, es un modelo de guitarra eléctrica diseñado entre 1952 y 1954 por Leo Fender, Bill Carson, George Fullerton y Freddie Tavares. Siendo fabricada y comercializada por Fender Musical Instruments Corporation desde 1954 a la actualidad.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="box">
+              <div class="body">
+                  <div class="imgContainer"> <img src="/img/guitarra_3.jpg" alt="guitarra_jackson"> </div>
+                  <div class="content d-flex flex-column align-items-center justify-content-center">
+                      <div>
+                          <id class="text-white fs-5">Jackson Dinky DK2</id>
+                          <p class="fs-6 text-white">La guitarra eléctrica Jackson Dinky DK2 sirve para diferentes estilos de música, su configuración de micrófonos con dos sencillos y un doble nos ayuda a generar una alta diversidad de tonos.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="box">
+            <div class="body">
+                <div class="imgContainer"> <img src="/img/guitarra_4.jpg" alt="gibson_sg"> </div>
+                <div class="content d-flex flex-column align-items-center justify-content-center">
+                    <div>
+                        <id class="text-white fs-5">Gibson SG</id>
+                        <p class="fs-6 text-white">La Gibson SG es un modelo de guitarra eléctrica sacada al mercado en 1961 (como la Gibson Les Paul SG) por Gibson, y que sigue en producción desde entonces junto a sus muchas variaciones. La SG Standard es el modelo de guitarra más vendido de Gibson.
+
+                          Es similar al modelo Gibson Les Paul, pero es más ligera debido sobre todo a que el cuerpo es más estrecho y con double-cutaway (doble "recorte", por encima y debajo del mástil).</p>
                     </div>
                 </div>
-              </div>
-              </div> 
             </div>
+      </div>
+      <div class="box">
+        <div class="body">
+            <div class="imgContainer"> <img src="/img/guitarra_5.jpg" alt="fender_telecaster"> </div>
+            <div class="content d-flex flex-column align-items-center justify-content-center">
+                <div>
+                    <id class="text-white fs-5">Fender Telecaster</id>
+                    <p class="fs-6 text-white">La Fender Telecaster fue la primera guitarra eléctrica de producción en serie. Tiene un cableado (wiring) sencillo con un control de volumen y uno de tono.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="box">
+      <div class="body">
+          <div class="imgContainer"> <img src="/img/guitarra_6.jpg" alt="yamaha_c40"> </div>
+          <div class="content d-flex flex-column align-items-center justify-content-center">
+              <div>
+                  <id class="text-white fs-5">Yamaha C40</id>
+                  <p class="fs-6 text-white">El modelo C40 ha sido galardonado en la última edición de los premios de la industria musical (M.I.A., Music Industry Awards). Desde su lanzamiento a principios de la década de los ‘90s, nuestra querida C40 ha ido coleccionando premios y reconocimientos, estableciéndose por derecho propio como la guitarra clásica mejor valorada entre profesores, alumnos y guitarristas principiantes, gracias a su increíble relación calidad-precio. </p>
+              </div>
           </div>
+      </div>
+  </div>
+    </div>
+
+    <section>
+      <p class="texto1-index"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rutrum, ipsum in dictum porta, nisi nisi ullamcorper mauris, ut posuere arcu tellus sed dolor. Mauris id vulputate neque. Curabitur finibus sapien mi, sed semper velit lacinia sit amet. Aliquam in dolor tortor. Cras risus nibh, pretium ac lacus eget, hendrerit dictum tellus. Sed eu malesuada ipsum, et sollicitudin quam. Sed turpis libero, venenatis at tellus sed, vestibulum dictum nulla. Sed scelerisque convallis nunc ut sodales. Cras orci velit, bibendum eu finibus vel, dapibus vel nisi. Fusce sit amet nisi nec metus porttitor ultricies. Nulla dignissim ullamcorper congue. Suspendisse odio lectus, consectetur id placerat nec, dignissim id odio. Nulla imperdiet metus nec congue commodo. Aenean lacinia, metus at ultricies aliquam, lorem nunc ullamcorper diam, sed sollicitudin justo justo ut eros.</p>
+    </section>
+
+    <section>
+      <h3>Teclados</h3>
+    </section>
+    
+    <div class="container d-flex align-items-center justify-content-center flex-wrap">
+      <div class="box-index">
+          <div class="body">
+              <div class="imgContainer"> <img src="/img/teclado_1.jpg" alt="teclado_yamaha"> </div>
+              <div class="content d-flex flex-column align-items-center justify-content-center">
+                  <div>
+                      <id class="text-white fs-5">Yamaha Psre373</id>
+                      <p class="fs-6 text-white">Equipado con un teclado sensible a la pulsación, el PSR-E373 representa el nuevo estándar en teclados de iniciación de Yamaha, perfecto para dar tus primeros pasos en el mundo de la música.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="box-index">
+          <div class="body">
+              <div class="imgContainer"> <img src="/img/teclado_2.jpg" alt="teclado_korg_pa600"> </div>
+              <div class="content d-flex flex-column align-items-center justify-content-center">
+                  <div>
+                      <id class="text-white fs-5">Korg Pa600</id>
+                      <p class="fs-6 text-white">Además de ser compacto, económico, potente y ofrecer un excelente sonido, Pa600 viene equipado con la colección más actualizada de sonidos de calidad y estilos.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="box-index">
+          <div class="body">
+              <div class="imgContainer"> <img src="/img/teclado_3.jpg" alt="teclado_korg_pa4X"> </div>
+              <div class="content d-flex flex-column align-items-center justify-content-center">
+                  <div>
+                      <id class="text-white fs-5">Korg Pa4X</id>
+                      <p class="fs-6 text-white">Ideal para la composición, grabación y para tocar en grupo. Para ello, cada aspecto de la serie de Interactivos profesionales del líder mundial KORG ha sido revisado y mejorado, dando como resultado el Pa4X, un instrumento inigualable.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+</div>
+
+<section>
+  <p class="texto1-index"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rutrum, ipsum in dictum porta, nisi nisi ullamcorper mauris, ut posuere arcu tellus sed dolor. Mauris id vulputate neque. Curabitur finibus sapien mi, sed semper velit lacinia sit amet. Aliquam in dolor tortor. Cras risus nibh, pretium ac lacus eget, hendrerit dictum tellus. Sed eu malesuada ipsum, et sollicitudin quam. Sed turpis libero, venenatis at tellus sed, vestibulum dictum nulla. Sed scelerisque convallis nunc ut sodales. Cras orci velit, bibendum eu finibus vel, dapibus vel nisi. Fusce sit amet nisi nec metus porttitor ultricies. Nulla dignissim ullamcorper congue. Suspendisse odio lectus, consectetur id placerat nec, dignissim id odio. Nulla imperdiet metus nec congue commodo. Aenean lacinia, metus at ultricies aliquam, lorem nunc ullamcorper diam, sed sollicitudin justo justo ut eros.</p>
+</section>
+
+<section>
+  <h3>Accesorios</h3>
+</section>
+
+<div class="container d-flex align-items-center justify-content-center flex-wrap">
+  <div class="box-index">
+      <div class="body">
+          <div class="imgContainer"> <img src="/img/auriculares_asus.jpg" alt="auriculares_asus"> </div>
+          <div class="content d-flex flex-column align-items-center justify-content-center">
+              <div>
+                  <id class="text-white fs-5">ASUS TUF H3</id>
+                  <p class="fs-6 text-white">Los auriculares TUF Gaming H3 heredan las características más emblemáticas de los auriculares para juegos de ASUS. La cámara hermética exclusiva y los altavoces ASUS Essence te sumergen en una experiencia de juego natural, con más nitidez y potencia de graves.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="box-index">
+      <div class="body">
+          <div class="imgContainer"> <img src="/img/pedalera.jpg" alt="pedalera_boss"> </div>
+          <div class="content d-flex flex-column align-items-center justify-content-center">
+              <div>
+                  <id class="text-white fs-5">Pedalera Boss Dd-500</id>
+                  <p class="fs-6 text-white">Esta increíble caja de herramientas de creación de sonido ofrece 12 modos de retardo distintivos con una calidad de audio excepcional, además de controles de edición profundos, una pantalla gráfica, memorias de parches, MIDI y mucho más.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="box-index">
+      <div class="body">
+          <div class="imgContainer"> <img src="/img/colgante_guitarra_2.jpg" alt="colgante_epiphone"> </div>
+          <div class="content d-flex flex-column align-items-center justify-content-center">
+              <div>
+                  <id class="text-white fs-5">Colgante Guitarra Epiphone</id>
+                  <p class="fs-6 text-white">Colgante de guitarra eléctrica Epiphone Black</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<section>
+  <p class="texto1-index"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rutrum, ipsum in dictum porta, nisi nisi ullamcorper mauris, ut posuere arcu tellus sed dolor. Mauris id vulputate neque. Curabitur finibus sapien mi, sed semper velit lacinia sit amet. Aliquam in dolor tortor. Cras risus nibh, pretium ac lacus eget, hendrerit dictum tellus. Sed eu malesuada ipsum, et sollicitudin quam. Sed turpis libero, venenatis at tellus sed, vestibulum dictum nulla. Sed scelerisque convallis nunc ut sodales. Cras orci velit, bibendum eu finibus vel, dapibus vel nisi. Fusce sit amet nisi nec metus porttitor ultricies. Nulla dignissim ullamcorper congue. Suspendisse odio lectus, consectetur id placerat nec, dignissim id odio. Nulla imperdiet metus nec congue commodo. Aenean lacinia, metus at ultricies aliquam, lorem nunc ullamcorper diam, sed sollicitudin justo justo ut eros.</p>
+</section>
+
         </body>
     <!--!Productos-->
 
     <!--Footer-->
     <footer>
-        <div class="grid-footer">
-        <h4>LOGO</h4> <br>
-        <h4>Herramientas</h4> <br>
-        <h4>Redes</h4> <br>
-        <h4>Servicios</h4>
-        </div> 
-    </footer> 
+      <div class="grid-footer">
+        <img src="../img/logo.png" class="logo-footer" width= "6%" alt="logo_music_x">
+          <ul>
+            <li>
+            <h5>Empresa</h5>
+            <div class="grid-lista">
+            <h6>Términos y condiciones</h6>
+            <h6>Tiendas</h6>
+            <h6>Política de privacidad</h6>
+            <h6>Trabaja con nosotros</h6>
+            </li> 
+          </ul>
+          <ul>
+            <li>
+            <h5>Compra</h5>
+            <div class="grid-lista">
+            <h6>Cómo comprar</h6>
+            <h6>Envíos y devoluciones</h6>
+            <h6>Garantía</h6>
+            <h6>Servicio técnico</h6>
+            <h6>Preguntas frecuentes</h6>
+            </li> 
+          </ul>
+          <ul>
+            <li>
+              <div class="redes">
+            <h5>Redes</h5>
+              </div>
+            <div class="grid-redes">
+              <a href="https://www.instagram.com/">
+              <img src="/img/instagram.png" width="8%" alt="instagram">
+              </a>
+              <a href="https://twitter.com/?lang=es">
+              <img src="/img/twitter.png" width="8%" alt="twitter">
+              </a>
+              <a href="https://www.facebook.com/">
+              <img src="/img/facebook.png" width="8%" alt="facebook">
+              </a>
+              <a href="https://www.youtube.com/">
+              <img src="/img/youtube.png" width="8%" alt="youtube" >
+              </a>
+            </li> 
+          </ul>
+      </div> 
+  </footer> 
     <!--!Footer-->
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
