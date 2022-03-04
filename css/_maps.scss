@@ -32,6 +32,10 @@ h3 {
     padding-top: 10rem;
 }
 
+.h3-perfil {
+    padding-top: 5rem;
+}
+
 /*EXTEND*/
 
 .texto1-index {
@@ -53,7 +57,7 @@ h3 {
 
 .texto1-nosotros {
     @extend .texto1-index;
-    padding-top: 10rem;
+    padding-top: 2rem;
 }
 
 .texto1-perfil {

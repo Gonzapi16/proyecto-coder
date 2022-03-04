@@ -24,6 +24,10 @@ h3 {
   padding-top: 10rem;
 }
 
+.h3-perfil {
+  padding-top: 5rem;
+}
+
 /*EXTEND*/
 .texto1-index, .texto2-index, .texto1-nosotros, .texto1-perfil {
   font-family: "PT Sans", sans-serif;
@@ -38,7 +42,7 @@ h3 {
 }
 
 .texto1-nosotros {
-  padding-top: 10rem;
+  padding-top: 2rem;
 }
 
 .texto1-perfil {
@@ -476,6 +480,29 @@ header a {
       grid-template-rows: 4rem;
   -ms-grid-columns: auto;
       grid-template-columns: auto;
+}
+
+.logo-ilustrativo {
+  padding: 3rem;
+  padding-top: 12rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.imagen-perfil {
+  padding: 3rem;
+  padding-top: 12rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 30px;
 }
 
 /*Fin contenidos*/
