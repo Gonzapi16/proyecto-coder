@@ -15,6 +15,12 @@ h1 {
 h2 {
   color: white;
   text-align: center;
+  padding-bottom: 3rem;
+}
+
+h3 {
+  color: white;
+  text-align: center;
   padding-top: 10rem;
 }
 
@@ -275,6 +281,109 @@ header a {
 }
 
 /*Fin formulario*/
+.banner-slides {
+  gap: 1rem;
+  padding: 2rem;
+  border-radius: 45px;
+  margin-top: 13rem;
+  width: 100%;
+  z-index: 1;
+}
+
+.boton-direccion {
+  padding-top: 12rem;
+}
+
+.container {
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.container .box {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+  cursor: pointer;
+}
+
+.container .box .body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+}
+
+.container .box .body .imgContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.container .box .body .imgContainer img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container .box .body .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #333;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.container .box:hover .body {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.container .box .body .content div {
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  padding: 20px;
+  background: -webkit-gradient(linear, left top, right top, from(#242424), color-stop(15%, #013364), color-stop(85%, #013364), to(#242424));
+  background: linear-gradient(90deg, #242424 0%, #013364 15%, #013364 85%, #242424 100%);
+  -webkit-transform: translateZ(100px);
+          transform: translateZ(100px);
+}
+
+.container .box .body .content div {
+  letter-spacing: 1px;
+}
+
+#text-white fs-5 {
+  color: white;
+  text-align: center;
+  padding: 0;
+  letter-spacing: 1px;
+}
+
 /*Contenidos*/
 * {
   margin: 0;
@@ -294,25 +403,8 @@ header a {
       grid-template-columns: auto;
 }
 
-h3 {
-  color: white;
-}
-
 .grid-productos {
   padding-top: 10rem;
-}
-
-.banner-slides {
-  gap: 1rem;
-  padding: 2rem;
-  border-radius: 45px;
-  margin-top: 13rem;
-  width: 100%;
-  z-index: 1;
-}
-
-.boton-direccion {
-  padding-top: 12rem;
 }
 
 /*Fin contenidos*/

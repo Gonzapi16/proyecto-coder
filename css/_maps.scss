@@ -23,10 +23,14 @@ h1 {
 h2 {
     color: map-get($titulares, color-titulares);
     text-align: map-get($titulares, alineado-titulares);
-    padding-top: 10rem;
+    padding-bottom: 3rem;
 }
 
-
+h3 {
+    color: map-get($titulares, color-titulares);
+    text-align: map-get($titulares, alineado-titulares);
+    padding-top: 10rem;
+}
 
 /*EXTEND*/
 

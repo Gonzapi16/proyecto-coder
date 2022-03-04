@@ -5,6 +5,8 @@
 @import "footer";
 @import "navbar";
 @import "formulario";
+@import "carrusel";
+@import "cards";
 
 /*Contenidos*/ 
 
@@ -24,25 +26,8 @@
     grid-template-columns: auto;
 }
 
-h3 {
-    color: white;
-}
-
 .grid-productos {
     padding-top: 10rem;
-}
-
-.banner-slides {
-    gap: 1rem;
-    padding: 2rem;
-    border-radius: 45px;
-    margin-top: 13rem; 
-    width: 100%;
-    z-index: 1;
-}
-
-.boton-direccion {
-    padding-top: 12rem;
 }
 
 /*Fin contenidos*/ 
