@@ -46,6 +46,20 @@ h4 {
     padding-top: 5rem;
 }
 
+.texto-productos {
+    font: {
+        family: $fuentes-texto;
+        size: 18px;
+    }
+    padding-top: 2rem;
+    padding-left: 10rem;
+    padding-right: 10rem;   
+    color: white;
+    line-height: 30px;
+    text-align: center;
+}
+
+
 /*EXTEND*/
 
 .texto1-index {
