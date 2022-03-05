@@ -32,7 +32,17 @@ h3 {
     padding-top: 10rem;
 }
 
+h4 {
+    color: map-get($titulares, color-titulares);
+    text-align: map-get($titulares, alineado-titulares);
+    padding-top: 5rem;
+}
+
 .h3-perfil {
+    padding-top: 5rem;
+}
+
+.h3-productos {
     padding-top: 5rem;
 }
 
